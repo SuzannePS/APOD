@@ -7,7 +7,7 @@
 body {
     font-family: 'Stick No Bills', sans-serif;
     width: 100vw;
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,8 +20,11 @@ body {
     width: 95%;
     height: 100%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-around;
     margin: 35px;
+    background-color: rgba(0, 0, 0, 0.4);
   }
   
   .central {        
@@ -32,6 +35,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 20px;
+    color: #f2f2f2;
   }
   
   #titulo {
@@ -48,12 +52,19 @@ body {
     border-bottom: 2px solid #1225d3;
   }
   
+
   #escolha-data {
     color: #6ec5ff;
     margin-top: 15px;
   }
   
-  #date {
+  .date{
+    display: flex;
+    align-items: center;
+    
+  }
+
+  #data {
     width: 200px;
     height: 35px;
     margin-top: 15px;
@@ -77,12 +88,14 @@ body {
   }
   
   .mostra-img {
-    width: 70;
+    width: 70%;
     height: 50%; 
     display: none;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    color: #f2f2f2;
+    padding-bottom: 25px;
   }
   
   .mostra-img img {
