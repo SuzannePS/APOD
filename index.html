@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@500&display=swap"rel="stylesheet"/>
+    <link rel="icon" type="image/x-icon" href="./img/planeta.png"/>
+    <link rel="stylesheet" href="./style.css"/>
+    <title>A.P.O.D - Astronomy Picture of the Day</title>
+</head>
+
+<body>
+    <main class="container">
+        <div class="central">
+            <h2 id="titulo">A.P.O.D </h2>
+            <h3 id="subtitulo">Astronomy Picture of the Day</h3>
+            <h3 id="escolha-data">Escolha uma data:</h3>
+                <div class="date">
+                    <input id="date" type="date" value="1995-02-21"/>
+                    <button type="button" id="button">Escolher</button>
+                    </div>
+                    <h1 id="titulo2"></h1>
+            
+                    <p id="txt-descrição">
+                     Descubra o seu universo do dia! O Astronomy Picture of the Day "APOD",
+                     traduzido : Imagem Astronômica do Dia, é um website mantido pela NASA,
+                      e essa aplicação tem o objetivo de mostrar qual imagem foi capturada em
+                     determinada data. 
+                     
+                     Para isso, escolha uma data e descubra um pedacinho do universo!
+                    </p>
+                </div>
+                <div class="mostra-img">
+                    <img src=" " id="imagem"/>
+                  </div>
+    </main>
+</body>
+
+<footer class="rodape"> © 2021. Copyright - Desenvolvido para fins educativos Resilia </footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="./apod.js"></script>  
+</html>
